@@ -9,6 +9,8 @@ fi
 
 echo "[wuhu] Installing packages..."
 
+add-apt-repository ppa:ondrej/php
+apt-get update
 apt-get install \
   apache2 \
   php7.3 \
